@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* border-box used used so that the borders and padding are not added to the width of an element */
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size: 10px;
+    Instead of using px, which doesn't help with people who have accessibility issues since the font-size doesn't change with the zoom levels, us % instead */
+
+  /* the percentage of 16px to get 10px; - what 1 REM is*/
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
